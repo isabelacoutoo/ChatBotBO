@@ -1,0 +1,44 @@
+var stages = {
+    0:{
+      descricao:"saudacao",
+      obj:require('./stages/stage0'),
+    },
+    1:{
+      descricao:"menu1",
+      obj:require('./stages/stage1'),
+    },
+    2:{
+      descricao:"menu2",
+      obj:require('./stages/stage2'),
+    },
+    3:{
+      descricao:"menu3",
+      obj:require('./stages/stage3'),
+    },
+    4:{
+      descricao:"menu4",
+      obj:require('./stages/stage4'),
+    },
+    5:{
+      descricao:"menu5",
+      obj:require('./stages/stage5'),
+    },
+    6:{
+      descricao:"menu6",
+      obj:require('./stages/stage6'),
+    },
+    7:{
+      descricao:"menu7",
+      obj:require('./stages/stage7'),
+    },
+    8:{
+      descricao:"menu8",
+      obj:require('./stages/stage8'),
+    },
+    9:{
+      descricao:"menu9",
+      obj:require('./stages/stage9'),
+    }
+  }
+
+  exports.step = stages;
